@@ -25,7 +25,7 @@ describe('Color code converter API', function() {
 
   describe('Convert HEX to RGB', function() {
 
-  let url = 'http://localhost:3000/hexToRgb?hex00ff00';
+  let url = 'http://localhost:3000/hexToRgb?hex=00ff00';
   
     it('Return status 200', function(done) {
       request(url, function(error, response, body) {
